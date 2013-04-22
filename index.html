@@ -56,7 +56,7 @@ function popUp(f,l){
     }
 }
 
-var jsonTest = new L.GeoJSON.AJAX({onEachFeature:popUp}).addTo(m);
+var jsonTest = L.geoJson.ajax({onEachFeature:popUp}).addTo(m);
 jsonTest.addUrl("test.geojson");
 
 </script>

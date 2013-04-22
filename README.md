@@ -29,7 +29,7 @@ Usage
 
 ```
 
-    var layer = new L.GeoJSON.AJAX();
+    var layer = L.geoJson.ajax();
     layer.addUrl('http://server/path.geojson');
 
 ```
