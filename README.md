@@ -30,10 +30,6 @@ Usage
 ```
 
     var layer = new L.GeoJSON.AJAX();
-    
-    layer.on('beforeDataLoad',   function() { layer.fire('data:loading'); });
-    layer.on('dataLoadComplete', function() { layer.fire('data:loaded'); });
-    
     layer.addUrl('http://server/path.geojson');
 
 ```
